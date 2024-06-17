@@ -14,7 +14,7 @@
 			#size-cells = <0>;
 
 			mlx7502x: camera@57 {
-				compatible = "melexis,mlx75027";
+				compatible = "melexis,mlx7502x";
 				reg = <0x57>;
 				clocks = <&mlx7502x_clk>;
 
