@@ -13602,6 +13602,17 @@ S:	Supported
 W:	http://www.melexis.com
 F:	drivers/iio/temperature/mlx90632.c
 
+MELEXIS MLX7502X DRIVER
+M:	Volodymyr Kharuk <vkh@melexis.com>
+L:	linux-media@vger.kernel.org
+S:	Supported
+W:	http://www.melexis.com
+F:	Documentation/devicetree/bindings/media/i2c/melexis,mlx7502x.yaml
+F:	Documentation/userspace-api/media/drivers/mlx7502x.rst
+F:	Documentation/userspace-api/media/v4l/ext-ctrls-tof.rst
+F:	drivers/media/i2c/mlx7502x.c
+F:	include/uapi/linux/mlx7502x.h
+
 MELFAS MIP4 TOUCHSCREEN DRIVER
 M:	Sangwon Jee <jeesw@melfas.com>
 S:	Supported
